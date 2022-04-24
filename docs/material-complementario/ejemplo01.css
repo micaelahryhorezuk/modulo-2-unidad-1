@@ -1,0 +1,38 @@
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Hind', sans-serif; */
+h1 {
+    color: red;
+    font-family: 'Anton', sans-serif;
+}
+
+.caja {
+    width: 600px;
+    height: 300px;
+    background: #6800ff;
+    background: linear-gradient(180deg, #6800ff 0%, #ff00d0 80%, #f100ff 40%, #ff00d0 80%);
+    background: -webkit-linear-gradient(180deg, #6800ff 0%, #ff00d0 80%, #f100ff 40%, #ff00d0 80%);
+    background: -moz-linear-gradient(180deg, #6800ff 0%, #ff00d0 80%, #f100ff 40%, #ff00d0 80%);
+    margin: 100px;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 0 20px 20px;
+    /* border-radius: 20px 0 20px 50px; */
+    /* border-radius: 0px 200px 200px 200px; */
+    /* -webkit-border-radius: 0px 200px 200px 200px; */
+    /* -moz-border-radius: 0px 200px 200px 200px; */
+    /* box-shadow: 10px 10px 5px black ; */
+    /* border: 1px solid white; */
+    box-shadow: 11px 57px 47px -40px rgba(0, 0, 0, 0.44);
+    column-count: 3;
+    /* column-gap: 50px; */
+    column-rule: 1px solid red;
+    ;
+}
+
+.caja p {
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+}
+.grande {color: green;
+font-size: 100px;}

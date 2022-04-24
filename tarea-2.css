@@ -1,0 +1,84 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Grape Nuts', cursive;
+font-family: 'Hind', sans-serif;
+font-family: 'Oswald', sans-serif; */
+h1 {
+
+    font-family: 'Anton', sans-serif;
+    color: blueviolet;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: italic;
+
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
+.caja-rosa {
+    width: 300px;
+    height: 150px;
+    margin: 100px;
+    background: rgba(255, 0, 238, 0.77);
+    background: linear-gradient(110deg, rgba(255, 0, 238, 0.77) 0%, #a500ff 40%, #5800ff 80%);
+    background: -webkit-linear-gradient(110deg, rgba(255, 0, 238, 0.77) 0%, #a500ff 40%, #5800ff 80%);
+    background: -moz-linear-gradient(110deg, rgba(255, 0, 238, 0.77) 0%, #a500ff 40%, #5800ff 80%);
+    border-radius: 0px 57px 0px 57px;
+    -webkit-border-radius: 0px 57px 0px 57px;
+    -moz-border-radius: 0px 57px 0px 57px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px rosybrown;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+.caja-azul {
+    width: 500px;
+    height: 150px;
+    margin: 100px;
+    background: #0013ff;
+    background: linear-gradient(90deg, #0013ff 0%, #0041ff 40%, #00caff 80%);
+    background: -webkit-linear-gradient(90deg, #0013ff 0%, #0041ff 40%, #00caff 80%);
+    background: -moz-linear-gradient(90deg, #0013ff 0%, #0041ff 40%, #00caff 80%);
+    border-radius: 0px 57px 0px 57px;
+    -webkit-border-radius: 0px 57px 0px 57px;
+    -moz-border-radius: 0px 57px 0px 57px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px rosybrown;
+    columns: 3;
+    column-gap: 5px;
+    column-rule: 3px solid blue;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+.libro {
+    color: blueviolet;
+}
+
+.personal {
+    color: blueviolet
+}
+
+.header {
+    padding: 0.5em;
+}
+
+.content {
+    padding: 0.5em;
+}
